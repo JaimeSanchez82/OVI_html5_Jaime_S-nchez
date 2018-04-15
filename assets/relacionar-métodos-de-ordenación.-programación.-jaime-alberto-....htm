@@ -1,0 +1,805 @@
+<!DOCTYPE html><html lang="es" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+
+<link rel="apple-touch-icon" href="/img/iIcon/touch-icon-iphone.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/iIcon/touch-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/iIcon/touch-icon-iphone-retina.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/iIcon/touch-icon-ipad-retina.png">
+
+<meta charset="utf-8">
+	<title>Relacionar Métodos de Ordenación. programación. jaime alberto ...</title>
+<meta name='description' content='Relacionar Métodos de Ordenación. programación, algoritmos, ordenamiento. jaime alberto sanchez tabares. Actividad de relacionar conceptos.'>
+	
+<link rel="image_src" href="/es/img/iconsSocial/iconRELACIONAR.png" >
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="alternate" hreflang="fr" href="https://fr.educaplay.com/fr/activiteeducatives/3645015/metodos_de_ordenacion.htm">
+<link rel="alternate" hreflang="es" href="https://es.educaplay.com/es/recursoseducativos/3645015/metodos_de_ordenacion.htm">
+<link rel="alternate" hreflang="en" href="https://www.educaplay.com/en/learningresources/3645015/metodos_de_ordenacion.htm">
+<link rel="alternate" hreflang="x-default" href="https://es.educaplay.com/es/recursoseducativos/3645015/metodos_de_ordenacion.htm">
+
+<link href="/es/css/20180108_style2.css" rel="stylesheet" type="text/css">
+
+<!-- Para el buscador TESAURO utilizamos JQUERY MIGRATE -->
+<script src="/es/js/jquery-1.5.1.min.js"></script>
+<!-- -->
+<script src="/es/js/jquery.maskedinput.min.js"></script>
+<script src="/es/js/jquery.url.js"></script>
+<script>
+$(document).data("loading","Cargando");
+$(document).data("noNotifications", "No hay notificaciones pendientes");
+$(document).data("noMessages", "No hay mensajes nuevos");
+$(document).data("idiomasrch", "ES");
+$(document).data("etiquetaNoValida", "Introduzca únicamente letras. Puedes separar varias etiquetas por coma.");
+$(document).data("aceptar", "Aceptar");
+$(document).data("comment_error_1", "El comentario que intenta borrar no ha sido localizado.");
+$(document).data("comment_error_2", "No se ha podido borrar el comentario.");
+$(document).ready(function(){
+
+	$(document).ready(function(){
+		if($("#ticket:not(.masked),#ticket_FL:not(.masked)").length && $.mask){
+			$("#ticket,#ticket_FL").addClass("masked").mask("aaa-aaa-aaa",{placeholder:" ", completed:function(){
+				$(this).val($(this).val().toUpperCase());
+			}});
+		}
+	});
+
+});
+</script>
+<script src="/es/js/20180108_comunEducaplay.js"></script>
+<script src="/es/js/jquery.url.js"></script>
+
+<!--[if IE 6]>
+<link href="/es/css/ie.css" rel="stylesheet" type="text/css">
+<![endif]-->
+
+<script src="https://apis.google.com/js/plusone.js">
+	
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="/html5/min/?b=css&amp;f=viewact.css,rankingsVerAct.css,jquery.impopmtu.css&20180108">
+<script src="/html5/min/?b=js&amp;f=jquery.rating.pack.js,jquery.validate.min.js,jquery.inview.min.js,jquery.zclip.js&20180108"></script>
+<script src="/html5/min/?b=js/akmodal&amp;f=dimmer.js,dimensions.pack.js&20180108"></script>
+<script src="/html5/min/?b=js&amp;f=jquery.effects.core.js,jquery.effects.explode.js,jquery.effects.pulsate.js,jquery-impromptu.4.0.min.js&20180108"></script>
+
+<script src="/es/js/20180108_verActividadEducaplay.js"></script>
+
+
+<style>
+/* BANNER Premium - ALUMNOS -*/
+
+@-webkit-keyframes crecer {
+  0% {
+	width:124px;
+  }
+  100% {
+	width:184px;
+  }
+}
+
+@keyframes crecer {
+  0% {
+	width:124px;
+  }
+  100% {
+	width:184px;
+  }
+}
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+	left:-208px;
+  }
+
+  100% {
+    opacity: 1;
+	left:0px;
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+	left:-208px;
+  }
+
+  100% {
+    opacity: 1;
+	left:0;
+  }
+}
+
+@-webkit-keyframes fadeInRight {
+  0% {
+	  
+    opacity: 0;
+	right:-208px;
+  }
+
+  100% {
+    opacity: 1;
+	right:0;
+	}
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+	right:-208px;
+  }
+
+  100% {
+    opacity: 1;
+	right:0;
+	}
+}
+.bnPremiumAlumnos {
+	margin-bottom: 8px;
+	height: 237px;
+	background-color: #fff;
+	font-family: Segoe,"Segoe UI","DejaVu Sans","Trebuchet MS",Verdana,sans-serif;
+	overflow: hidden;
+	position:relative;
+	background-image: url(/img/bgBocadilloBn.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+}
+.bocadillo_bn {
+	position:absolute; top:14px; left:14px; width:100%;
+}
+.txt_bocadillo_bn {
+	color:#fff;
+	font-size:15px; line-height:18px;
+	padding-right:27px;
+	margin-bottom:9px;	
+}
+.bocadillo-link { display:block; color:#ffdb5b; font-weight:bold; text-decoration:underline;}
+.imagen_bn img { width:124px; height:auto; vertical-align:middle; position:relative;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-name: crecer;
+          animation-name: crecer;
+		  animation-delay:3.2s;
+  -webkit-animation-delay:3.2s;
+    -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.imagen_bn { position:absolute; bottom:0; right:0; overflow:hidden; width:87px; height:133px; animation: fadeInRight .6s;
+-webkit-animation: fadeInRight .6s; 
+    -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+
+}
+.extraText_bn { position:absolute; top:160px; left:14px; font-size:14px; line-height:17px; color:#3b3b3b; border-left:4px solid #ddd; padding:6px 11px;  left:0;
+  -webkit-animation-duration: 1.3s;
+          animation-duration: 1.3s;
+  -webkit-animation-name: fadeInLeft;
+          animation-name: fadeInLeft;
+		  animation-delay:3.5s;
+  -webkit-animation-delay:3.5s;
+      -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.extraText_bn strong { display:block; width:102px;}
+</style>
+
+<style>
+.editar {background-image: url(../img/btnsaccion.png);background-position:0px 0px;}.editar:hover {background-position:0px -22px;}.editar:focus, .editar:active {background-position:0px -44px;}.down {background-position:-136px 0px;}.down:hover {background-position:-136px -22px;}.down:focus, .down:active {background-position:-136px -44px;}.up {background-position:-170px 0px;}.up:hover {background-position:-170px -22px;}.up:focus, .up:active {background-position:-170px -44px;}
+#errorHTML5 {background:white;width:60%;padding:30px;margin:auto;margin-top:100px;text-align:center;border:3px solid grey;font-size:18px;}
+</style>
+
+
+<script>
+
+function finActividad(){
+		$.getJSON("/getRankObtenido.php?idActividad=3645015",
+			function(data){
+				$(document).data("deseo_registrarme", "Deseo registrarme");
+				$(document).data("quiza_otro_momento", "Quiza en otro momento");
+				checkRankResponse(data);
+			}
+		);
+}
+
+function changeSelectColeccion(id){
+    if(id=="new"){
+        document.getElementById('nuevaColeccion').style.display = "block";
+    }
+    else{
+        document.getElementById('nuevaColeccion').style.display = "none";
+    }
+}
+
+function isTactilDev(){
+	if(!(screen.width < 600)){
+		return false;
+	}
+	else{
+		return true;
+	}
+
+//  	return !!('ontouchstart' in window) || !!('onmsgesturechange' in window);
+}
+
+$(document).ready( function(){ 
+
+	if(isTactilDev()){
+		document.location.href="https://es.educaplay.com/es/recursoseducativos/3645015/html5/metodos_de_ordenacion.htm";
+		return;
+	}
+	$("<iframe src='https://es.educaplay.com/es/recursoseducativos/3645015/html5/metodos_de_ordenacion.htm' width='100%' height='100%' frameborder='0'></iframe>").appendTo($("#activContainer"));
+	
+});
+</script>
+</head>
+
+<body itemscope itemtype="http://schema.org/Game">
+	
+<span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+<meta itemprop="name" content="Educaplay">
+<meta itemprop="url" content="https://www.educaplay.com/">
+<meta itemprop="email" content="info@educaplay.com">
+<meta itemprop="logo" content="https://www.educaplay.com/es/img/logoEducaplay2015.png">
+</span>
+<span itemprop="numberOfPlayers" itemscope itemtype="http://schema.org/QuantitativeValue">
+<meta itemprop="value" content="1">
+</span>
+<meta itemprop="dateModified" content="2018-04-15T10:55:14+01:00">
+<meta itemprop="datePublished" content="2018-04-15T10:38:11+01:00">
+<div id="idActividadActual" style="display:none">3645015</div>
+<div id="tipoActividad" style="display:none" itemprop="genre">Relacionar</div>
+<div id="errorH" style="display:none">Para ver esta actividad, es necesario disponer de un navegador que soporte HTML5</div>
+<header class="headerMain">
+<div class="headerMain__franjaSuperior">
+<label for="headerMain__chkMenu" class="headerMain__franjaSuperior__botonIcon"><div class="headerMain__franjaSuperior__botonIcon__icon"></div></label>
+<h1 class="headerMain__h1"><a href="/es/" title="Ir a la portada"><img src="/es/img/educaplay_logo_es.png" alt="Educaplay"></a></h1>
+<div class="headerMain__botoneraMedia">
+	<a href="/es/editarActividad.php" title="Crear actividad" id="headerMain__panel__boton__nuevaAct" class="headerMain__panel__boton">Crear actividad</a>
+	</div>
+    <div class="nav-user-logueado">
+    <div class="navUser iArrowB"><span class="iHeader" title="Mi menú"></span>
+        <div class="contentNavUser containerDropdown" style="display: none;">
+        	<ul>
+                <li><a href="/es/miEducaplay.php" title="Mi educaplay">Mi educaplay</a></li>
+								                <li><a href="/es/miEducaplay.php?action=editarDatos" title="Configuración de cuenta">Configuración de cuenta</a></li>                                <li><a href="/es/index.php?action=logout" title="Desconectar">Desconectar</a></li>
+            </ul>
+        </div>	
+    </div>
+    
+        <div class="img-header-logueado">
+            	   <a href="/es/miEducaplay.php"><img src="/es/img/default52.png" alt="jaime alberto sanchez tabares" width="52" height="52" title="jaime alberto sanchez tabares"></a> 
+          		</div>
+                
+        <div class="navAlerts">
+        <div class="boxAlert iAlerts"><span class="iHeader" id="iNotf" title="Notificaciones"></span>
+            <div id="userNotificaciones" class="previewAlert containerDropdown">
+                <div class="headPreviewAlert ">
+    	           <div class="contentPreviewAlert">
+    		          <div class="titPreviewAlert">Notificaciones</div>
+    	           </div>
+                </div>
+                <div class="bodyPreviewAlert ">
+    	           <div class="contentPreviewAlert">	
+                        <div class="notificacionesDisplay">
+                            <ul class="notificaciones">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footPreviewAlert ">
+    	           <div class="contentPreviewAlert">
+    		          <a href="/mieducaplay/1776559/action/notificaciones/">Notificaciones anteriores</a>
+    	           </div>
+                </div>
+            </div>
+        </div>
+        <div class="boxAlert iMessage"><span class="iHeader" id="iMsj" title="Mensajes"></span>    
+            <div id="userMensajes" class="previewAlert containerDropdown" >
+                <div class="headPreviewAlert ">
+    	           <div class="contentPreviewAlert">
+    		          <div class="titPreviewAlert">Mensajes</div>
+    	           </div>
+                </div>
+                <div class="bodyPreviewAlert ">
+                    <div class="contentPreviewAlert">
+                        <div class="notificacionesDisplay">
+                            <ul class="mensajesBox">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footPreviewAlert ">
+                    <div class="contentPreviewAlert">
+                        <a href="/mieducaplay/1776559/action/mensajesPrivados/">Todos los mensajes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/es/js/cabecera.js"></script>
+</div></div>
+<input type="checkbox" name="menu" id="headerMain__chkMenu">
+<div class="headerMain__lente"></div>
+<div class="headerMain__panel">
+<div class="headerMain__panel__cabecera">
+<label for="headerMain__chkMenu"></label>
+<img src="/es/img/educaplay_logo_es.png" alt="Educaplay">
+</div>
+		<a href="/es/editarActividad.php" title="Crear actividad" id="headerMain__panel__boton__nuevaAct" class="headerMain__panel__boton">Crear actividad</a>
+	<ul class="headerMain__panel__language">
+<li><a href="//www.educaplay.com/en/learningresources/3645015/metodos_de_ordenacion.htm?lang=en" title="Inglés">EN</a></li>
+<li><a href="//es.educaplay.com/es/recursoseducativos/3645015/metodos_de_ordenacion.htm?lang=es" class="headerMain__panel__language--selected" title="Español">ES</a></li>
+<li><a href="//fr.educaplay.com/fr/activiteeducatives/3645015/metodos_de_ordenacion.htm?lang=fr" title="Francés">FR</a></li>
+</ul>
+<nav>
+<h2>Menú de navegación</h2>
+<ul class="headerMain__menu">
+<li><a href="/es/" class="headerMain__menu__enlace " title="Inicio">Inicio</a></li>
+<li><a href="/es/recursoseducativos/" class="headerMain__menu__enlace " title="Recursos educativos">Recursos educativos</a></li>
+<li><a href="/es/actividades.php" class="headerMain__menu__enlace " title="Tipos de actividades">Tipos de actividades</a></li>
+<li><a href="/es/grupos/" class="headerMain__menu__enlace " title="Grupos">Grupos</a></li>
+<li><a href="/es/rankings/" class="headerMain__menu__enlace " title="Usuarios">Usuarios</a></li>
+<li><a href="/es/blog/" class="headerMain__menu__enlace " title="Blog">Blog</a></li>
+<li><a href="/es/premium.php" class="headerMain__menu__enlace " title="Premium">Premium</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<div class="headerMargen"></div>
+
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>$jq102 = jQuery.noConflict();</script>
+<script src="/es/js_html5/comunes/lightbox/jquery.fancybox.pack.js"></script>
+<link rel="stylesheet" href="/es/js_html5/comunes/lightbox/jquery.fancybox.css" type="text/css">
+<script>
+	$jq102(document).ready(function() {
+		$jq102(".fancybox").fancybox();
+	});
+</script>
+
+<div id="cookieInfo" class="boxCookieInfo">
+    <div>
+        Este sitio web utiliza cookies de terceros con la finalidad de analizar el uso que hace de nuestra web y personalizar el contenido de los anuncios. Si continúa navegando entendemos que acepta su uso. <a href="/politicaPrivacidad.php?#usoCookies"></a>
+
+        <a href="javascript:closeCookie()" class="closeCookieInfo"><span class="iCloseCookieInfo">&times;</span> Cerrar</a>
+    </div>
+    <script>
+        function closeCookie()
+        {
+            $("#cookieInfo").slideUp();
+            var postData = { cookiesInfo: 'off' };
+            $.ajax(
+                {
+            	     url : "/cookieInfo.php",
+            	     type: "POST",
+            	     data : postData,
+            	     dataType: 'json',
+            	     cache: false
+                }
+             ) 
+        }
+    </script>
+</div>
+<div id="cont">
+<div class="col5 margen text">
+    <div id="titActSocial">
+    	<div id="verVentanaCompleta" class="ri">
+        <a href="/es/editarActividad.php?action=editarActividad&idActividad=3645015" class="editar" title="Editar">Editar</a>  
+        </div>
+    	        <h2 itemprop="name">Métodos de Ordenación</h2>
+	    <div class="btnsShare">
+		    
+<script>
+$(document).ready(function(){
+	$("#resultShareFb").bind("click",function(e){
+		e.preventDefault();
+        socializa($("#idActividadActual").html(),'facebook');
+        url=location.href;
+        urlShare="http://www.facebook.com/sharer.php?p[url]="+url;
+		window.open(urlShare,"shareFb","width=700,height=700,top=100,left=50");
+	});
+	$("#resultShareTw").bind("click",function(e){
+		e.preventDefault();
+        socializa($("#idActividadActual").html(),'twitter');
+        url=location.href;
+		urlShare="http://twitter.com/home?status="+url;
+		window.open(urlShare,"shareTw","width=700,height=700,top=100,left=50");
+	});
+	$("#resultShareGp").bind("click",function(e){
+		e.preventDefault();
+        socializa($("#idActividadActual").html(),'googleplus');
+        url=location.href;
+		urlShare="https://plus.google.com/share?url="+url;
+		window.open(urlShare,"shareGo","width=700,height=700,top=100,left=50");
+	});
+});
+</script>
+
+Compartir 
+<ul>
+    <li><a id="resultShareTw" href="#" class="shareTw"><img src="/img/shareTwitter.png" alt="Twitter" width="24" height="24"></a></li>
+    <li><a id="resultShareFb" href="#" class="shareFb"><img src="/img/shareFacebook.png" alt="Facebook" width="24" height="24"></a></li>
+    <li><a id="resultShareGp" href="#" class="shareGplus"><img src="/img/shareGoogle.png" alt="Google plus" width="24" height="24"></a></li>
+</ul>
+	    </div>
+        
+	    <div class="extraDatosAct">
+                <a href="/es/recursoseducativos/tipo/relacionar/" class="btnTipoActividad" title="galeria de Relacionar">Relacionar</a> <span class="sepExtraDatos">|</span> 
+	    <strong>1</strong> Veces realizada <span class="sepExtraDatos">|</span> 
+        <strong>0</strong> 
+
+        Me gusta recibidos
+        <input type="hidden" name="idactividad" value="3645015" id='idactividad'>
+        
+                	<a class="btnLikeAct likeEresAutor" href="#" id="iLike" rel="nofollow"><span>Eres el autor</span></a> 
+                
+    </div>
+    <div class="clear"></div>
+    <div></div>
+    <div class="clear"></div>
+    </div>
+<div id="visor">
+
+	
+	<div id="activContainer" style="height: 550px;"></div>
+    <div class="footactividad margen">
+                <a href="#" class="ri notificarcont" id="contenidoina">Notificar contenido inapropiado</a>
+        <div id="boxinadecuado" style="display:none;">
+            <a href="#" class="cerrarverde ri" id="btnCerrarInadecuado">Cerrar</a>
+        	<div id='formuInadecuado'>
+                <form method="post" action="/verActividad.php">
+                    <input type="hidden" name="action" value="notificarContenidoInapropiado">
+                    <input type="hidden" name="idActividad" value="3645015" id='notiIdActividad'>
+                    <div style="line-height: 12px;">Si consideras que el contenido de esta actividad es ofensivo o inadecuado (violencia, sexo, racismo, xenofobia, etc.) para los usuarios del sitio, puedes notificárnoslo cumplimentando el siguiente formulario&nbsp;&nbsp;&nbsp;</div>
+                    <div id="errorFormuInadecuado" style="display: none;"></div>
+                    <div class="clear"></div>
+                    <textarea name="motivo" id='notiMotivo'></textarea>
+					<script>
+                     var RecaptchaOptions = {
+                        lang : 'es',
+                        theme : 'custom',
+                        custom_theme_widget: 'recaptcha_widget'
+                     };
+                    </script>
+                    <div class="le">
+                        <div id="recaptcha_widget" style="display:none">
+                            <div id="recaptcha_image"></div>
+                            <div style="float:right; margin: -63px 2px 0 -15px;">
+	                            <a style="width: 15px;" href="javascript:Recaptcha.reload();"><img src="/es/img/icon-reload.gif" alt=""></a>
+                            </div>
+                            <span class="recaptcha_only_if_image">Introduce las siguientes palabras:</span>
+                            <input type="text" id="recaptcha_response_field" name="recaptcha_response_field">
+                        </div>
+                        <script
+                        src="//www.google.com/recaptcha/api/challenge?k=6LdgHs0SAAAAADb7KBDa9GgMCTAc0W9jE9-Q3bvI">
+                        </script>
+                        <noscript>
+                        <iframe src="//www.google.com/recaptcha/api/noscript?k=6LdgHs0SAAAAADb7KBDa9GgMCTAc0W9jE9-Q3bvI" height="300" width="500"></iframe><br>
+                        <textarea name="recaptcha_challenge_field" rows="3" cols="40">
+                        </textarea>
+                        <input type="hidden" name="recaptcha_response_field"
+                            value="manual_challenge">
+                        </noscript>
+                    </div>
+                    <div style="float:right; margin:12px 80px 0 0;">
+                        <input type="submit" name="Aceptar" value="Aceptar" class="btn" id='btnFInadecuado'>
+                        <input type="reset" name="cancelar" id="resetcomentario" value="Cancelar" class="btn apagado">
+                    </div>
+                    <div class="clear"></div>
+                </form>
+            </div>
+            <div class="loader" style="display:none;" id='cargador'>&nbsp;</div>
+        </div>
+                            <a href="#" class="ri anadira" id="meinteresa"><span>Añadir a</span></a>
+            <div id="boxAnadir" style="display:none;">
+                <ul>
+                	<li><a href="#" class="ifavoritos" id="ifavoritos">Favoritos</a></li>
+				                    <li>
+                        <a href="#" class="inewcoleccion" id="inewcoleccion">Nueva colección</a>
+                        <form id="formAnadirCol" style="display:none;" name="form1" method="post" action="#">
+                            <input type="text" name="nombre" id="nColeccion">
+                            <input type="submit" name="button" id="button" value="ok" class="btnanadir">
+                        </form>
+                    </li>
+                    				                </ul>
+            </div>
+            </div>  
+</div>
+
+
+
+<div class="tagspe" style="margin:0px 0 22px;">
+<div class="infoView" id="infoView" style="display:none;">
+    <a class="closeInfo" href="Javascript:closeInfoView();">cerrar</a>    
+    <div id="txtInfoView"></div>
+</div>
+<abbr title="2018-04-15 10:38:11">15 de abril de 2018 </abbr>
+<span class="sepExtraDatos">|</span>
+Etiquetas: <a href="/es/recursoseducativos/tag/programacion">programación</a> , <a href="/es/recursoseducativos/tag/algoritmos">algoritmos</a> , <a href="/es/recursoseducativos/tag/ordenamiento">ordenamiento</a></div>
+
+<div class="contentRankingAct">
+    <div id="RMejores">
+                <div class="RMejorPersonal boxMejorPuntuacion">
+            <h3>Tu mejor puntuación</h3>    
+            <div class="RMejorContent">
+                  
+                    <a href="/es/mieducaplay/1776559/jaime_alberto.htm">
+                        <span class="red32">
+                                        	               <img src="/es/img/default52.png" alt="jaime alberto" width="52" height="52" class="le"> 
+                                                    </span>
+                    </a>
+                    <div class="infoRMejor">
+                        <ul>
+                            <li><a href="/es/mieducaplay/1776559/jaime_alberto.htm">jaime alberto sanchez tabares</a></li>
+                            <li class="gris">15 de abril de 2018 </li>
+                            <li><strong><span>67</span> puntos en <span>00:20</span>&nbsp;min</strong></li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                            </div>    
+        </div>
+    </div>
+    
+    <div id="rankingVerAct">
+        <table style="width:100%;">
+            <thead>
+                <tr>
+                    <th scope="col">&nbsp;</th>
+                    <th class="titPlayer" scope="col">10 mejores resultados</th>
+                    <th scope="col">Puntos</th>
+                    <th scope="col">Tiempo</th>
+                    <th scope="col">Fecha</th>
+                </tr>
+            </thead>
+            <tbody>
+                                    <tr>
+                        <th scope="row">1</th>
+                        <td>-</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                                    <tr>
+                        <th scope="row">2</th>
+                        <td>-</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                                    <tr>
+                        <th scope="row">3</th>
+                        <td>-</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                                    <tr>
+                        <th scope="row">4</th>
+                        <td>-</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                                    <tr>
+                        <th scope="row">5</th>
+                        <td>-</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                                    <tr>
+                        <th scope="row">6</th>
+                        <td>-</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                                    <tr>
+                        <th scope="row">7</th>
+                        <td>-</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                                    <tr>
+                        <th scope="row">8</th>
+                        <td>-</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                                    <tr>
+                        <th scope="row">9</th>
+                        <td>-</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                                    <tr>
+                        <th scope="row">10</th>
+                        <td>-</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                                
+            </tbody>
+            <tfoot style="display:none;">
+            	<tr id="rankTemplate" style="display: none;">
+                    <th scope="row"><span class="tplRANKPOST"></span></th>
+                    <td><span class="tplUSER"></span></td>
+                    <td><span class="tplREG_SCORE"></span></td>
+                    <td><span class="tplTIEMPO"></span>&nbsp;min.</td>
+                    <td><span class="tplFECHA"></span></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+
+		<div class="comentarios">
+        <h3>Comentarios</h3>
+        
+                <div class="contComentario">
+          <div class="le">  <img src="/es/img/iconeducaplay.png" width="52" alt="Educaplay"> <strong>Educaplay</strong> </div>
+          <div class="txtcomentario">
+            <p>Sé el primero en comentar esta actividad</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+              </div>
+      <div class="tplcontComentario" style="display:none;">
+          <div class="le">  <img src="/es/img/iconeducaplay.png" width="52" alt="Educaplay"> <strong>Educaplay</strong> </div>
+          <div class="txtcomentario">
+          <p>Sé el primero en comentar esta actividad</p>
+          </div>
+          <div class="clear"></div>
+      </div>
+     <!-- aquï¿½ se escriben los comentarios -->
+      <div class="text">
+      <a id="comentario"></a>
+        <h3>Escribir un comentario</h3>
+        	        
+        
+        <form id="contactform" method="post" action="/es/editarActividad.php" class="formu">
+		<div class="box-addComment">
+        <input type="hidden" name="idActividad" value="3645015">
+        <input type="hidden" name="action" value="comentar">
+          <label for="mensaje">
+          <textarea name="comentario" cols="40" rows="10" id="mensaje"></textarea>
+          </label>
+          <input type="submit" name="registrarse" value="Enviar" class="btn">
+ </div>
+        </form>
+             </div>
+      
+      
+	 <!-- Txutxi se fue -->
+
+	
+    <div class="clear margen"></div>
+      
+	
+</div>
+
+<div class="col4">
+
+<div class="col1 margen">
+<div class="bnPremiumAlumnos">
+	<div class="bocadillo_bn">
+    <div class="txt_bocadillo_bn">Educaplay sin publicidad para ti y tus alumnos</div>
+    <a href="/es/premium.php" class="bocadillo-link">Educaplay premium</a>
+</div>
+<div class="imagen_bn"><img src="/img/bannerMuneco.png" alt=" "></div>
+<div class="extraText_bn">Ahora también <strong>sin publicidad en tu blog</strong></div>
+</div>
+
+  <h3>Autor</h3>
+  <div class="cajaborde noborde" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <meta itemprop="name" content="jaime alberto sanchez tabares">
+  <meta itemprop="url" content="https://www.educaplay.com/es/mieducaplay/1776559/jaime_alberto.htm">
+    		<img itemprop="image" src="/es/img/default52.png" alt="jaime alberto sanchez tabares" width="52" height="52" class="le"> 
+            <h4><a href="/es/mieducaplay/1776559/jaime_alberto.htm">jaime alberto sanchez tabares</a></h4>
+        <div class="clear"></div>
+    <div class="sustituloAct">Actividad de relacionar conceptos</div>
+    <div id="optionsViewAct">
+    	<ul>
+           			<li class="actPrint"><a href="https://es.educaplay.com/es/recursoseducativos/3645015/print/metodos_de_ordenacion.htm#!"><span class="iconViewAct"></span>Imprimir</a></li>
+		        	<li class="actFullScreem"><a href="https://es.educaplay.com/es/recursoseducativos/3645015/html5/metodos_de_ordenacion.htm#!"><span class="iconViewAct"></span>Pantalla completa</a></li>
+        </ul>
+    </div>   
+  </div>
+  <div class="cajaborde code">
+  	<label for="url">Compartir</label>
+    <input type="text" id="url" value="https://es.educaplay.com/es/recursoseducativos/3645015/metodos_de_ordenacion.htm" size="10" readonly="readonly">
+    
+    <label for="iframe">Insertar</label>
+    <input type="text" id="iframe" value="<iframe src='https://es.educaplay.com/es/recursoseducativos/3645015/html5/metodos_de_ordenacion.htm' width='795' height='690' frameborder='0'></iframe><a href='https://es.educaplay.com/es/recursoseducativos/3645015/metodos_de_ordenacion.htm'>Métodos de Ordenación</a>" size="10" readonly="readonly">
+    
+  </div>
+ </div>
+<div class="col1">
+<a href="#" id="ocultarbox">&nbsp;</a>
+  <h3>Recursos del autor</h3>
+  <div class="cajaborde boxscroll" id="boxacts">
+    </div>
+ 
+</div>
+
+<div class="col1">
+    <h3>Recursos relacionados</h3>
+    <div class="cajaborde boxscroll" id="boxactsrel">
+                    <h4><a href="/es/recursoseducativos/18060/tipos_de_datos_simples.htm" class="iconpe iconmapape">Tipos de datos simples</a></h4>
+                    <h4><a href="/es/recursoseducativos/35279/algoritmos_introduccion.htm" class="iconpe icontestpe">Algoritmos-Introducción</a></h4>
+                    <h4><a href="/es/recursoseducativos/35288/algoritmos.htm" class="iconpe icontestpe">Algoritmos</a></h4>
+                    <h4><a href="/es/recursoseducativos/563446/sopa_de_letras_sobre_algoritmo.htm" class="iconpe iconsopape">Sopa de letras sobre Algoritmo</a></h4>
+            </div>
+
+</div>
+
+<div class="containerValidacion">
+	<div class="txtValidacion">Actividad validada por:</div>
+    <div class="containerUsersValidacion">
+    	<ul>
+                                            </ul>
+        <div class="cl"></div>
+    </div>
+</div>
+
+<script>
+function setILikeIt()
+{
+	if($("#iLike"))
+	{
+		$("#iLike").addClass('noCambio');
+		$("#iLike").trigger('click');
+	}
+}
+</script>
+
+</div>
+</div>
+<footer>
+<div class="footer__superior">
+	<a href="https://www.adrformacion.com/" target="_blank"><img src="/img/adrformacion_re149.png" width="149" height="29" alt="ADR Formación"></a>
+	<div class="footer__superior__texto">Educaplay es una aportación de ADR Formación a la comunidad educativa</div>
+</div>
+<div class="footer__inferior">
+	<div class="footer__inferior__copy">© 2018 Educaplay</div>
+	<ul class="footer__inferior__menu">
+		<li><a href="/es/contacto.php">Contacto</a></li>
+		<li><a href="/es/premiosymenciones.php">Premios y menciones</a></li>
+		<li><a href="/es/licencia.php">Licencia</a></li>
+		<li><a href="/es/politicaPrivacidad.php">Política de Privacidad</a></li>
+	</ul>
+	<div class="footer__inferior__siguenos">Síguenos en</div>
+	<div class="footer__inferior__social">
+		<a class="footer__inferior__social__boton footer__inferior__social__boton--fb" href="https://www.facebook.com/educaplay" target="_blank" title="Facebook"></a><a class="footer__inferior__social__boton footer__inferior__social__boton--tw" href="https://twitter.com/educaplay" target="_blank" title="Twitter"></a>
+	</div>
+</div>    
+
+</footer>
+
+<script>
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2165293-2']);
+  _gaq.push(['_setDomainName', '.educaplay.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = '/js/ga/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

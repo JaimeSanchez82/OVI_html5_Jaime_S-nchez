@@ -1,0 +1,118 @@
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="humanet.com.co" resolutions="1x" timestamp="1523820316363">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="master_a-p_g_-maestra.css" crc="4139644510" ref="a6:objetivos:metodos-de-ordenación:metodo-seleccion:metodo-insercion:a3:actividades-practicas:a1:a4:a2:index:a5:autores:metodo-burbuja"/>
+    <file name="a6.css" crc="322026319" ref="a6"/>
+    <file name="objetivos.css" crc="106830685" ref="objetivos"/>
+    <file name="metodos-de-ordenaci_n.css" crc="55133478" ref="metodos-de-ordenación"/>
+    <file name="metodo-seleccion.css" crc="281136243" ref="metodo-seleccion"/>
+    <file name="metodo-insercion.css" crc="4045646544" ref="metodo-insercion"/>
+    <file name="a3.css" crc="4166760008" ref="a3"/>
+    <file name="actividades-practicas.css" crc="525362833" ref="actividades-practicas"/>
+    <file name="a1.css" crc="4002199272" ref="a1"/>
+    <file name="a4.css" crc="3993973086" ref="a4"/>
+    <file name="a2.css" crc="226817990" ref="a2"/>
+    <file name="index.css" crc="4019897434" ref="index"/>
+    <file name="a5.css" crc="3829828546" ref="a5"/>
+    <file name="autores.css" crc="4265932829" ref="autores"/>
+    <file name="metodo-burbuja.css" crc="160171283" ref="metodo-burbuja"/>
+  </folder>
+  <folder name="assets">
+    <file name="relacionar-métodos-de-ordenación.-programación.-jaime-alberto-....htm" crc="225406688" seo="true" mt="1523809151000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="museutils.js" crc="17924269" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="whatinput.js" crc="86476730" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="museconfig.js" crc="278381782" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="jquery.watch.js" crc="4240030481" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="require.js" crc="3861931657" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+  </folder>
+  <folder name="images">
+    <file name="unad-blanco04.png" crc="4076437744" seo="true" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6">
+      <caption webpage="metodo-burbuja" alt=""/>
+      <caption webpage="a2" alt=""/>
+      <caption webpage="metodo-seleccion" alt=""/>
+      <caption webpage="a3" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="metodos-de-ordenación" alt=""/>
+      <caption webpage="a1" alt=""/>
+      <caption webpage="metodo-insercion" alt=""/>
+      <caption webpage="a5" alt=""/>
+      <caption webpage="autores" alt=""/>
+      <caption webpage="a4" alt=""/>
+      <caption webpage="objetivos" alt=""/>
+      <caption webpage="a6" alt=""/>
+      <caption webpage="actividades-practicas" alt=""/>
+    </file>
+    <file name="u383-5.png" crc="3915729408" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="u95_states.png" crc="3884948973" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="u95_states-r.png" crc="4031433931" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="u102.png" crc="197523821" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="u102-r.png" crc="241329096" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="u108.png" crc="34128798" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="u108-r.png" crc="73933163" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="u114_states.png" crc="4262940624" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="u114_states-r.png" crc="449377711" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="u121.png" crc="375089792" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="u121-r.png" crc="4275493148" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="u127.png" crc="4124685257" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="u127-r.png" crc="4125878836" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="u569_states.png" crc="3781969473" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="u569_states-r.png" crc="987416" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="u219_states.png" crc="108467337" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="u219_states-r.png" crc="108467337" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="u565-9.png" crc="355696138" ref="index:objetivos:metodos-de-ordenación:metodo-burbuja:metodo-seleccion:autores:metodo-insercion:actividades-practicas:a1:a2:a3:a4:a5:a6"/>
+    <file name="u386-5.png" crc="4246827591" ref="objetivos"/>
+    <file name="u516-27.png" crc="488430162" ref="objetivos"/>
+    <file name="u389-5.png" crc="502566306" ref="metodos-de-ordenación"/>
+    <file name="u553-23.png" crc="4092337409" ref="metodos-de-ordenación"/>
+    <file name="u392-5.png" crc="3933715924" ref="metodo-burbuja"/>
+    <file name="u556-4.png" crc="142864954" ref="metodo-burbuja"/>
+    <file name="u395-5.png" crc="3923908843" ref="metodo-seleccion"/>
+    <file name="u559-4.png" crc="305170941" ref="metodo-seleccion"/>
+    <file name="u401-5.png" crc="4175158852" ref="autores"/>
+    <file name="u419-19.png" crc="62586548" ref="autores"/>
+    <file name="whatsapp image 2018-04-15 at 15118 am.jpg" crc="4134505861" seo="true" ref="autores">
+      <caption webpage="autores" alt=""/>
+    </file>
+    <file name="u441-35.png" crc="3976469498" ref="autores"/>
+    <file name="u398-5.png" crc="190724405" ref="metodo-insercion"/>
+    <file name="u562-4.png" crc="4078572385" ref="metodo-insercion"/>
+    <file name="u613-5.png" crc="4275397431" ref="actividades-practicas"/>
+    <file name="u914_states.png" crc="3908568249" ref="actividades-practicas"/>
+    <file name="u914_states-r.png" crc="4153485352" ref="actividades-practicas"/>
+    <file name="u988_states.png" crc="4263432099" ref="actividades-practicas"/>
+    <file name="u988_states-r.png" crc="4015266802" ref="actividades-practicas"/>
+    <file name="u991_states.png" crc="3997960780" ref="actividades-practicas"/>
+    <file name="u991_states-r.png" crc="276245210" ref="actividades-practicas"/>
+    <file name="u994_states.png" crc="4240365151" ref="actividades-practicas"/>
+    <file name="u994_states-r.png" crc="3807881869" ref="actividades-practicas"/>
+    <file name="u997_states.png" crc="112749257" ref="actividades-practicas"/>
+    <file name="u997_states-r.png" crc="4143598547" ref="actividades-practicas"/>
+    <file name="u1000_states.png" crc="4014036461" ref="actividades-practicas"/>
+    <file name="u1000_states-r.png" crc="4236069810" ref="actividades-practicas"/>
+    <file name="u1003-5.png" crc="313491002" ref="a1"/>
+    <file name="u1006-5.png" crc="15598811" ref="a2"/>
+    <file name="u1047-5.png" crc="4166779100" ref="a3"/>
+    <file name="u1050-5.png" crc="4129834488" ref="a4"/>
+    <file name="u1053-5.png" crc="156389041" ref="a5"/>
+    <file name="u1056-5.png" crc="85967135" ref="a6"/>
+    <file name="u550-4.png" crc="3788645213" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3809053511" seo="true" mt="1523820219708" redirect="true"/>
+  <file name="objetivos.html" crc="4259502142" seo="true" mt="1523819054404" redirect="true"/>
+  <file name="metodos-de-ordenación.html" crc="392847199" seo="true" mt="1523819334691" redirect="true"/>
+  <file name="metodo-burbuja.html" crc="4020065005" seo="true" mt="1523819844334" redirect="true"/>
+  <file name="metodo-seleccion.html" crc="3839413940" seo="true" mt="1523819865097" redirect="true"/>
+  <file name="autores.html" crc="4264231652" seo="true" mt="1523820294687" redirect="true"/>
+  <file name="metodo-insercion.html" crc="368022879" seo="true" mt="1523819897588" redirect="true"/>
+  <file name="actividades-practicas.html" crc="3801625970" seo="true" mt="1523819633455" redirect="true"/>
+  <file name="a1.html" crc="527686757" seo="true" mt="1523819054404" redirect="true"/>
+  <file name="a2.html" crc="4173212599" seo="true" mt="1523819054404" redirect="true"/>
+  <file name="a3.html" crc="3894703068" seo="true" mt="1523819054404" redirect="true"/>
+  <file name="a4.html" crc="446980064" seo="true" mt="1523819054404" redirect="true"/>
+  <file name="a5.html" crc="3928183751" seo="true" mt="1523819054404" redirect="true"/>
+  <file name="a6.html" crc="188886475" seo="true" mt="1523819054404" redirect="true"/>
+</manifest>
